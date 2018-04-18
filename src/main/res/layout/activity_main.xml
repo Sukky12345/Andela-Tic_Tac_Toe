@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:textColor="@android:color/holo_blue_dark"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:padding="12dp"
+        android:id="@+id/whichPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        >
+
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose How many Players"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/oneplayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1 Player"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/twopplayers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2 Players"
+            android:textSize="30sp" />
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radioStyleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        >
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tic Tac Toe Board Setting"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/threerdbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3 X 3"
+            android:textSize="27sp" />
+
+        <RadioButton
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/fiverdbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5 X 5"
+            android:textSize="27sp"
+            />
+    </RadioGroup>
+
+    <RadioGroup
+        android:padding="12dp"
+        android:id="@+id/radioSymbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        >
+
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1 Choose a Symbol"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/rdbtnx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="X"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/rdbtno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="O"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <Button
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:id="@+id/StartGame"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START GAME"
+        android:textSize="25sp"
+        />
+</LinearLayout>
